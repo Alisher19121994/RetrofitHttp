@@ -1,8 +1,10 @@
-package com.example.retrofithttp
+package com.example.retrofithttp.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.retrofithttp.R
+import com.example.retrofithttp.storage.SharedPrefManager
 
 class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

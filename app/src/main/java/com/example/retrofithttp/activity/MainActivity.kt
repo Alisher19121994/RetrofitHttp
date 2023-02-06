@@ -1,10 +1,13 @@
-package com.example.retrofithttp
+package com.example.retrofithttp.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_log_in.*
+import com.example.retrofithttp.R
+import com.example.retrofithttp.storage.SharedPrefManager
+import com.example.retrofithttp.model.DefaultResponse
+import com.example.retrofithttp.network.RetrofitClient
 import kotlinx.android.synthetic.main.activity_log_in.editTextEmail
 import kotlinx.android.synthetic.main.activity_log_in.editTextPassword
 import kotlinx.android.synthetic.main.activity_main.*

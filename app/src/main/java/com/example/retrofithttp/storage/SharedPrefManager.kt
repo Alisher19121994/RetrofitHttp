@@ -1,6 +1,7 @@
-package com.example.retrofithttp
+package com.example.retrofithttp.storage
 
 import android.content.Context
+import com.example.retrofithttp.model.User
 
 class SharedPrefManager  private constructor(private val mCtx: Context){
     val isLoggedIn: Boolean

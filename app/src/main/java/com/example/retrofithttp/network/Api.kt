@@ -1,6 +1,7 @@
-package com.example.retrofithttp
+package com.example.retrofithttp.network
 
-import android.telecom.Call
+import com.example.retrofithttp.model.DefaultResponse
+import com.example.retrofithttp.model.LoginResponse
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.POST

@@ -1,9 +1,8 @@
-package com.example.retrofithttp
+package com.example.retrofithttp.network
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.util.*
 
 object RetrofitClient {
 //    private val AUTH = "Basic "+ Base64.encodeToString("belalkhan:123456".toByteArray(), Base64.NO_WRAP)
